@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sudheers Video Player</title>
+</head>
+<body>
+    <header>
+        <h1>Sudheers  Video Player</h1>
+    </header>
+    <main>
+        <div class="container">
+            <label for="videoIdInput">Enter YouTube Video ID:</label>
+            <div class="input-group">
+                <input type="text" id="videoIdInput" placeholder="Example: abc123">
+                <button onclick="loadVideo()">Load Video</button>
+            </div>
+            <div id="player"></div>
+        </div>
+    
+            
+            <div class="gallery-container">
+                <h2>choose your default vedio here</h2>
+                <div class="image-gallery">
+                    <img src="pexels-alena-yanovich-14426570.jpg" alt="Image 1">
+                    <img src="pexels-alina-chernii-18879451.jpg" alt="Image 2">
+                    <img src="pexels-christyn-reyes-16143559.jpg" alt="Image 3">
+                    <img src="pexels-i̇lkin-efendiyev-18221948.jpg" alt="Image 3"> 
+                </div>
+            </div>
+     
+        <script src="https://www.youtube.com/iframe_api"></script>
+        <script src="script.js"></script>
+    </main>
+    <footer>
+        <p>&copy; 2023 YouTube Video Player</p>
+    </footer>
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="script.js"></script>
+</body>
+</html>
